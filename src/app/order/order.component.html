@@ -1,0 +1,43 @@
+<!-- <p>order works!</p> -->
+<div>
+    <h2>Order Form</h2>
+    <form>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" [(ngModel)]="newName" name="name" placeholder="Enter name">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" [(ngModel)]="newEmail" name="email" placeholder="Enter email">
+      </div>
+      <div>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" [(ngModel)]="newPhone" name="phone" placeholder="Enter phone">
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea id="message" [(ngModel)]="newMessage" name="message" placeholder="Enter message"></textarea>
+      </div>
+      <button type="button" (click)="addOrder()">Submit Order</button>
+    </form>
+  </div>
+  
+  <div>
+    <h2>Orders</h2>
+    <ul>
+      <li *ngFor="let order of orders; let i = index">
+        <p>Ваше замовлення №{{ i + 1 }}:</p><br>
+        <p><strong>Name:</strong> {{ order.name }}</p>
+        <p><strong>Email:</strong> {{ order.email }}</p>
+        <p><strong>Phone:</strong> {{ order.phone }}</p>
+        <p><strong>Message:</strong> {{ order.message }}</p>
+        <br><p>може бути виконане відповідно:</p>
+        <p>- в ургентному порядку:</p>
+        <p>НЕГАЙНО, ЯК ТІЛЬКИ Я ВАС ПОБАЧУ</p>
+        <p>- в плавому порядку:</p>
+        <p>згідно запису на прийом</p>
+      </li>
+    </ul>
+  </div>
+
+  

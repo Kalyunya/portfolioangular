@@ -1,0 +1,17 @@
+.items {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    font-family: Arial, sans-serif;
+}
+ul li::before {
+    content: "\2605"; 
+    margin-right: 5px; 
+  }
+.items li.selected{
+    color: blue;
+    background-color: brown;
+}
+.items li.selected:hover {
+    background-color: azure;
+}

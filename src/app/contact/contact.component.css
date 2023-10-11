@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-description {
+    background-color: #c7ffc2; /* Блідо-зелений фон */
+    border: 2px solid #888; /* Сіра рамка */
+    color: #888; /* Сірий текст */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 300px; /* Задайте бажану ширину */
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+}

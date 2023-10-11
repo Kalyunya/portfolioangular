@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.about-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-content {
+    background-color: #70e730;
+    border: 2px solid #333;
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+    color: #555; /* Сірий колір тексту */
+}
+
+p.about-works {
+    font-size: 20px;
+}

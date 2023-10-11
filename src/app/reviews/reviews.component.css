@@ -1,0 +1,50 @@
+/* Стилізація контейнера для введення та виведення відгуків */
+div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+  }
+  
+  /* Стилізація полів введення */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Стилізація кнопки "Add Review" */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Змінити стиль кнопки при наведенні */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Стилізація відгуків */
+  h3 {
+    font-size: 20px;
+    margin: 15px 0;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  

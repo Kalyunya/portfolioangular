@@ -1,0 +1,17 @@
+<!-- <p>reviews works!</p> -->
+<div>
+  <label for="title">Title:</label>
+  <input type="text" id="title" [(ngModel)]="newReviewTitle">
+</div>
+<div>
+  <label for="content">Content:</label>
+  <textarea id="content" [(ngModel)]="newReviewContent"></textarea>
+</div>
+<div>
+  <button (click)="addReview()">Add Review</button>
+</div>
+<div *ngFor="let review of reviews">
+  <h3>{{ review.title }}</h3>
+  <p>{{ review.content }}</p>
+</div>
+

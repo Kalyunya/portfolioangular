@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-container {
+    text-align: center;
+}
+
+.profile-box {
+    background-color: #70e730;
+    border: 2px solid #333;
+    border-radius: 5%;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+}
+
+button {
+    margin: 10px;
+}
